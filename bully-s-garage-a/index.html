@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Bully's Garage | Auto detailing Zagreb</title>
+<meta name="description" content="Bully's Garage: auto detailing u Zagrebu. Poliranje, dubinsko čišćenje i njega vozila. Nazovi i dogovori termin.">
+<style>
+  :root{
+    --ink:#f2f0ec; --bg:#0b0b0c; --panel:#141416; --line:#26262a;
+    --acid:#e8ff3a; --steel:#8c8c95;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    --sans:"Arial Black","Helvetica Neue",Impact,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--mono);overflow-x:hidden}
+  a{color:inherit}
+  .demo{background:var(--acid);color:#111;padding:10px 16px;font:12px/1.4 var(--mono);text-align:center}
+
+  /* diagonal band system – no rounded cards anywhere */
+  .band{padding:0 16px;border-bottom:1px solid var(--line)}
+  .wrap{max-width:1080px;margin:0 auto}
+
+  header.hero{position:relative;padding:56px 16px 40px;overflow:hidden}
+  .hero:before{content:"";position:absolute;inset:-40% -20% auto -20%;height:120%;
+    background:repeating-linear-gradient(115deg,#111 0 34px,#0d0d0e 34px 68px);transform:rotate(-4deg);z-index:0}
+  .hero>*{position:relative;z-index:1}
+  .tagline{font:12px/1 var(--mono);letter-spacing:.34em;color:var(--acid);text-transform:uppercase}
+  h1{font:clamp(38px,9.5vw,104px)/.84 var(--sans);letter-spacing:-.03em;text-transform:uppercase;margin:18px 0 0}
+  h1 em{font-style:normal;display:block;color:var(--acid)}
+  .sub{max-width:44ch;color:var(--steel);margin:20px 0 28px;font-size:15px}
+
+  .cta{display:flex;flex-wrap:wrap;gap:10px}
+  .btn{display:inline-block;padding:15px 22px;font:13px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;
+    text-decoration:none;border:2px solid var(--acid);color:#111;background:var(--acid);clip-path:polygon(10px 0,100% 0,calc(100% - 10px) 100%,0 100%)}
+  .btn.ghost{background:#1c1c20;color:var(--acid);border-color:#1c1c20}
+
+  /* stats strip */
+  .strip{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);background:var(--panel)}
+  .strip div{padding:18px 16px;border-right:1px solid var(--line)}
+  .strip div:last-child{border-right:0}
+  .strip b{display:block;font:24px/1 var(--sans);color:var(--acid)}
+  .strip span{font-size:11px;letter-spacing:.2em;color:var(--steel);text-transform:uppercase}
+
+  /* services as a numbered list, not boxes */
+  section{padding:56px 16px}
+  h2{font:clamp(26px,6vw,44px)/1 var(--sans);text-transform:uppercase;letter-spacing:-.02em;margin:0 0 28px}
+  ol.srv{list-style:none;margin:0;padding:0;counter-reset:s}
+  ol.srv li{counter-increment:s;display:grid;grid-template-columns:64px 1fr;gap:16px;align-items:start;
+    padding:22px 0;border-top:1px solid var(--line)}
+  ol.srv li:before{content:counter(s,decimal-leading-zero);font:28px/1 var(--sans);color:var(--acid)}
+  ol.srv h3{margin:0 0 6px;font:18px/1.2 var(--sans);text-transform:uppercase;letter-spacing:.01em}
+  ol.srv p{margin:0;color:var(--steel);font-size:14px}
+
+  .marq{border-block:1px solid var(--line);background:var(--acid);color:#111;overflow:hidden;white-space:nowrap}
+  .marq div{display:inline-block;padding:12px 0;animation:slide 22s linear infinite;font:13px/1 var(--mono);letter-spacing:.24em;text-transform:uppercase}
+  .marq span{padding:0 22px}
+  @keyframes slide{to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){.marq div{animation:none}}
+
+  .contact{background:var(--panel)}
+  .big-tel{font:clamp(30px,9vw,72px)/1 var(--sans);letter-spacing:-.02em;text-decoration:none;display:inline-block;margin:8px 0 18px}
+  .hours{color:var(--steel);font-size:14px}
+  footer{padding:28px 16px;color:#9a9aa3;font-size:12px;text-align:center}
+</style>
+</head>
+<body>
+<div class="demo"><b>Prijedlog web stranice</b> za Bully's Garage · izradio Leon Franjević. Verzija A — industrijska. Boje i font prilagođavamo vašem logu.</div>
+
+<header class="hero">
+  <p class="tagline">Auto detailing · Zagreb</p>
+  <h1>Prljav auto<em>nije opcija</em></h1>
+  <p class="sub">Poliranje, dubinsko čišćenje i njega vozila. Radimo bez žurbe, do zadnjeg detalja — i vraćamo auto onakvim kakav je izašao iz salona.</p>
+  <div class="cta">
+    <a class="btn" href="tel:+385955927221">Nazovi 095 592 7221</a>
+    <a class="btn ghost" href="https://wa.me/385955927221?text=Pozdrav%2C%20zanima%20me%20termin.">WhatsApp</a>
+  </div>
+</header>
+
+<div class="strip">
+  <div><b>5,0</b><span>Ocjena na Googleu</span></div>
+  <div><b>100%</b><span>Ručni rad</span></div>
+  <div><b>1 dan</b><span>Prosječan termin</span></div>
+</div>
+
+<div class="marq"><div><span>Poliranje</span>·<span>Dubinsko čišćenje</span>·<span>Kemijsko čišćenje</span>·<span>Priprema za prodaju</span>·<span>Poliranje</span>·<span>Dubinsko čišćenje</span>·<span>Kemijsko čišćenje</span>·<span>Priprema za prodaju</span></div></div>
+
+<section class="wrap">
+  <h2>Što radimo</h2>
+  <ol class="srv">
+    <li><div><h3>Poliranje laka</h3><p>Uklanjanje ogrebotina, holograma i mat mjesta. Lak ponovno drži odsjaj.</p></div></li>
+    <li><div><h3>Dubinsko čišćenje interijera</h3><p>Sjedala, tepisi, strop, svaki šav i kutak u kojem se skuplja prljavština.</p></div></li>
+    <li><div><h3>Kemijsko čišćenje</h3><p>Mrlje, mirisi i tragovi svakodnevne vožnje — van iz auta.</p></div></li>
+    <li><div><h3>Priprema za prodaju</h3><p>Auto koji na slikama izgleda skuplje nego što jest. Doslovno.</p></div></li>
+  </ol>
+</section>
+
+<section class="contact" id="kontakt">
+  <div class="wrap">
+    <h2>Dogovori termin</h2>
+    <a class="big-tel" href="tel:+385955927221">095 592 7221</a>
+    <p class="hours">Zagreb · Radno vrijeme po dogovoru · Javi se na WhatsApp i pošalji slike auta.</p>
+    <div class="cta">
+      <a class="btn" href="tel:+385955927221">Nazovi odmah</a>
+      <a class="btn ghost" href="https://wa.me/385955927221?text=Pozdrav%2C%20zanima%20me%20termin.">Piši na WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>Bully's Garage · Zagreb · Prijedlog izradio Leon Franjević</footer>
+</body>
+</html>
