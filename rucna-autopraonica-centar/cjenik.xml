@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjenik naziv="Ručna autopraonica Centar" datum="2026-10-03" valuta="EUR">
+  <usluga>
+    <naziv>Vanjsko pranje</naziv>
+    <cijena>12,00</cijena>
+    <sidrena_cijena>12,00</sidrena_cijena>
+  </usluga>
+  <usluga>
+    <naziv>Vanjsko pranje + vosak</naziv>
+    <cijena>18,00</cijena>
+    <sidrena_cijena>17,00</sidrena_cijena>
+  </usluga>
+  <usluga>
+    <naziv>Unutarnje čišćenje</naziv>
+    <cijena>20,00</cijena>
+    <sidrena_cijena>20,00</sidrena_cijena>
+  </usluga>
+  <usluga>
+    <naziv>Kompletno pranje (vani + unutra)</naziv>
+    <cijena>30,00</cijena>
+    <sidrena_cijena>28,00</sidrena_cijena>
+  </usluga>
+  <usluga>
+    <naziv>Dubinsko čišćenje sjedala</naziv>
+    <cijena>60,00</cijena>
+    <sidrena_cijena>60,00</sidrena_cijena>
+  </usluga>
+  <usluga>
+    <naziv>Pranje motora</naziv>
+    <cijena>25,00</cijena>
+    <sidrena_cijena>25,00</sidrena_cijena>
+  </usluga>
+</cjenik>
